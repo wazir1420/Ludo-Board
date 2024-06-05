@@ -730,8 +730,16 @@ class Ludogame extends StatelessWidget {
                 height: 20,
                 width: 20,
                 decoration: BoxDecoration(
-                    color: Colors.black,
-                    border: Border.all(color: Colors.black)),
+                  gradient: LinearGradient(
+                    stops: [.5, .5],
+                    begin: Alignment.bottomLeft,
+                    end: Alignment.topRight,
+                    colors: [
+                      Colors.green,
+                      Colors.yellow, // top Right part
+                    ],
+                  ),
+                ),
               ),
               Container(
                 height: 20,
@@ -744,8 +752,19 @@ class Ludogame extends StatelessWidget {
                 height: 20,
                 width: 20,
                 decoration: BoxDecoration(
-                    color: Colors.black,
-                    border: Border.all(color: Colors.black)),
+                  gradient: LinearGradient(
+                    stops: [
+                      .5,
+                      .5,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [
+                      Colors.yellow,
+                      Colors.blue, // top Right part
+                    ],
+                  ),
+                ),
               ),
               Container(
                 height: 20,
@@ -948,8 +967,19 @@ class Ludogame extends StatelessWidget {
                 height: 20,
                 width: 20,
                 decoration: BoxDecoration(
-                    color: Colors.black,
-                    border: Border.all(color: Colors.black)),
+                  gradient: LinearGradient(
+                    stops: [
+                      .5,
+                      .5,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [
+                      Colors.green,
+                      Colors.red, // top Right part
+                    ],
+                  ),
+                ),
               ),
               Container(
                 height: 20,
@@ -961,8 +991,19 @@ class Ludogame extends StatelessWidget {
                 height: 20,
                 width: 20,
                 decoration: BoxDecoration(
-                    color: Colors.black,
-                    border: Border.all(color: Colors.black)),
+                  gradient: LinearGradient(
+                    stops: [
+                      .5,
+                      .5,
+                    ],
+                    begin: Alignment.bottomLeft,
+                    end: Alignment.topRight,
+                    colors: [
+                      Colors.red,
+                      Colors.blue, // top Right part
+                    ],
+                  ),
+                ),
               ),
               Container(
                 height: 20,
